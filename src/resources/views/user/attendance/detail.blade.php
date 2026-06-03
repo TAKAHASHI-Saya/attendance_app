@@ -30,7 +30,7 @@
                         </p>
                     </div>
                     <div class="detail__form--row">
-                        <label for="" class="detail__form--label">出勤・退勤</label>
+                        <label for="" class="detail__form--attendance-label">出勤・退勤</label>
                         <input type="datetime" name="after_clock_in_at" value="{{optional($attendance)->clock_in_at?->format('H:i')}}" class="detail__form--input">
                         <span class="input__modifier">〜</span>
                         <input type="datetime" name="after_clock_out_at" value="{{optional($attendance)->clock_out_at?->format('H:i')}}" class="detail__form--input">

@@ -47,6 +47,14 @@
     margin-right: 300px;
 }
 
+.detail__form--attendance-label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #737373;
+    margin-right: 260px;
+}
+
 .detail__form--name {
     width: 316px;
     font-size: 16px;
