@@ -1,0 +1,57 @@
+.staff-list {
+    display: flex;
+    justify-content: center;
+    background-color: #F0EFF2;
+    min-height: 100vh;
+}
+
+.staff-list__group {
+    margin-top: 80px;
+}
+
+.staff-list__heading {
+    border-left: 8px solid #000000;
+}
+
+.staff-list__title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.staff-list__field {
+    margin-top: 50px;
+    width: 900px;
+}
+
+.staff-list__table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.staff-list__table--header,
+.staff-list__table--item {
+    color: #737373;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-align: center;
+    padding: 16px 10px;
+}
+
+.staff-list__table--header {
+    border-bottom: 3px solid #E1E1E1;
+}
+
+.staff-list__table--item {
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.staff-list__table--detail {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}

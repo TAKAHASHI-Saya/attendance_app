@@ -1,0 +1,101 @@
+.record {
+    display: flex;
+    justify-content: center;
+    background-color: #F0EFF2;
+    min-height: 100vh;
+}
+
+.record__group {
+    margin-top: 80px;
+    width: 900px;
+}
+
+.record__heading {
+    border-left: 8px solid #000000;
+}
+
+.record__title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.record__calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.record__calendar--previous-month,
+.record__calendar--next-month {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #737373;
+}
+
+.previous-arrow {
+    margin-right: 5px;
+}
+
+.next-arrow {
+    margin-left: 5px;
+}
+
+.record__calendar--this-month {
+    display: flex;
+    align-items: center;
+}
+
+.fa-calendar-days {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.record__list {
+    margin-top: 50px;
+}
+
+.record__table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.record__table--header,
+.record__table--item {
+    color: #737373;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-align: left;
+    padding: 16px 40px;
+}
+
+.record__table--header {
+    border-bottom: 3px solid #E1E1E1;
+}
+
+.record__table--item {
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.record__table--detail {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.record__table--disabled {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    cursor: default;
+}

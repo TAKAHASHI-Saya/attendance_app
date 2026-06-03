@@ -1,0 +1,117 @@
+.staff-detail {
+    display: flex;
+    justify-content: center;
+    background-color: #F0EFF2;
+    min-height: 100vh;
+}
+
+.staff-detail__group {
+    margin-top: 80px;
+    width: 900px;
+}
+
+.staff-detail__heading {
+    border-left: 8px solid #000000;
+}
+
+.staff-detail__title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.staff-detail__calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.staff-detail__calendar--previous-month,
+.staff-detail__calendar--next-month {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #737373;
+}
+
+.previous-arrow {
+    margin-right: 5px;
+}
+
+.next-arrow {
+    margin-left: 5px;
+}
+
+.staff-detail__calendar--this-month {
+    display: flex;
+    align-items: center;
+}
+
+.fa-calendar-days {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.staff-detail__list {
+    margin-top: 50px;
+}
+
+.staff-detail__table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.staff-detail__table--header,
+.staff-detail__table--item {
+    color: #737373;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-align: left;
+    padding: 16px 40px;
+}
+
+.staff-detail__table--header {
+    border-bottom: 3px solid #E1E1E1;
+}
+
+.staff-detail__table--item {
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.staff-detail__table--detail {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.staff-detail__table--disabled {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    cursor: default;
+}
+
+.staff-detail__csv {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: right;
+}
+
+.staff-detail__csv--output {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
