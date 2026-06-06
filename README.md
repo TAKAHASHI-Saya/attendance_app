@@ -81,7 +81,6 @@ php artisan test
 - PHP 8.1.34
 - MySQL 8.0.26
 - Mailhog
-- Stripe(stripe-php v19.4.1)
 
 ## ER図
 ![ER図](er.drawio.png)

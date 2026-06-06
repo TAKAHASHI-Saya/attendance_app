@@ -65,7 +65,7 @@
                     <td class="change-request__table--item">{{$changeRequest->reason}}</td>
                     <td class="change-request__table--item">{{$changeRequest->created_at->format('Y/m/d')}}</td>
                     <td class="change-request__table--item">
-                        <a href="{{route('user-attendance.request.show', $changeRequest->id)}}" class="change-request__table--detail">詳細</a>
+                        <a href="{{route('user-attendance.detail', $changeRequest->attendance_id)}}" class="change-request__table--detail">詳細</a>
                     </td>
                 </tr>
                 @endforeach
